@@ -19,9 +19,9 @@ const Counter = () => {
             <div className="p-[80px] flex flex-col justify-center items-center gap-10 rounded-md border-[7px] border-[#392467]"> 
                 <div className="p-[20px] text-5xl font-bold text-[#86469C] rounded-md border-[4px] border-[#392467] ">Contador</div>
                 <div className="p-[5px] text-5xl font-bold text-[#86469C]">{counter}</div>
-                <button className= "w-[100px] h-[50px] bg-[#BC7FCD] rounded-md border-[2px] border-[#86469C] flex justify-center items-center hover:bg-[#940B92] " onClick={addCounter}> <CgAdd className="text-white text-4xl"/> </button>
-                <button className= "w-[100px] h-[50px] bg-[#FB9AD1] rounded-md border-[2px] border-[#BC7FCD] flex justify-center items-center hover:bg-[#940B92] "onClick={restCounter}> <GrSubtractCircle className="text-white text-4xl" /></button>
-                <button className= "w-[100px] h-[50px] bg-[#FFCDEA] rounded-md border-[2px] border-[#FB9AD1] flex justify-center items-center hover:bg-[#940B92] "onClick={refreshCounter}> <MdOutlineRestartAlt className="text-white text-4xl"/> </button>
+                <button className= "w-[100px] h-[50px] bg-[#BC7FCD] rounded-md border-[2px] border-[#86469C]  hover:bg-[#940B92] " onClick={addCounter}> <CgAdd className="text-white text-4xl"/> </button>
+                <button className= "w-[100px] h-[50px] bg-[#FB9AD1] rounded-md border-[2px] border-[#BC7FCD] hover:bg-[#940B92] "onClick={restCounter}> <GrSubtractCircle className="text-white text-4xl" /></button>
+                <button className= "w-[100px] h-[50px] bg-[#FFCDEA] rounded-md border-[2px] border-[#FB9AD1]  hover:bg-[#940B92] "onClick={refreshCounter}> <MdOutlineRestartAlt className="text-white text-4xl"/> </button>
             </div>
         </div> 
         );
